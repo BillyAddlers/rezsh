@@ -21,8 +21,13 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 # Exporting graalvm installation inside .sdk directory
-export JAVA_HOME=~/.sdk/graalvm-jdk-23.0.1+11.1
+export JAVA_HOME=~/Library/graalvm-jdk/latest/23
 export PATH=$JAVA_HOME/bin:$PATH
+
+# Exporting cmdline-tools used by android sdk
+export ANDROID_HOME=~/Library/android/sdk
+export ANDROID_TOOLS_PATHS=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/cmdline-tools/bin
+export PATH=$ANDROID_TOOLS_PATHS:$PATH
 
 # Exporting our main local binary PATH
 export PATH="$HOME/.local/bin:$PATH"
