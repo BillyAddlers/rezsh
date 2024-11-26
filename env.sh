@@ -16,6 +16,9 @@ fi
 
 export GPG_TTY=$(tty)
 
+# Exporting default libvirt uri
+export LIBVIRT_DEFAULT_URI=qemu:///system
+
 # Exporting path used by libraries
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
