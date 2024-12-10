@@ -25,3 +25,8 @@ source ~/.antigen.zsh
 # Our config's entry point.
 source ~/.rezsh/init.sh
 
+# Hyprland Colorscheme integration
+source ~/.config/zshrc.d/dots-hyprland.zsh
+
+# Starting Hyprland
+source ~/.config/zshrc.d/auto-Hypr.sh

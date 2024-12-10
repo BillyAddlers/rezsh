@@ -35,6 +35,9 @@ export PATH=$ANDROID_TOOLS_PATHS:$PATH
 # Exporting our main local binary PATH
 export PATH="$HOME/.local/bin:$PATH"
 
+# Exporting Rust Cargo's binary PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # NOTE: Exports used by libraries
 #
 # These exports are essentials for development.
